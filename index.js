@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const ShortUrl = require("./models/shortUrl");
+const ShortUrl = require("./models/connect");
 const app = express();
 
 mongoose.connect('mongodb+srv://parijatbhatt1:XriKznROSZhGhSL8@cluster0.2nwhboq.mongodb.net/urlShortener',{
